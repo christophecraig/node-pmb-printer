@@ -1,0 +1,19 @@
+ Notes pour l'installation
+ 
+ Côté Raspberry : 
+
+ 
+ Vérifier que Node.js est installé en exécutant la commande suivante dans votre terminal : 
+ $ node -v
+ assurez-vous que cette commande retourne une version supérieure à 6 (ex: v6.11.5)
+ 
+ Si node n'est pas installé, veuillez exécuter la commande suivante :
+ $ wget http://node-arm.herokuapp.com/node_latest_armhf.deb 
+ $ sudo dpkg -i node_latest_armhf.deb
+ $ node -v
+ $ npm install 
+
+ensuite, exécuter :
+$ node index
+pour lancer le serveur node. Celui-ci écoute par défaut sur le port 3000
+Cliquer sur le lien dans votre terminal pour ouvrir l'interface recensant les imprimantes

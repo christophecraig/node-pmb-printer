@@ -1,0 +1,47 @@
+﻿<!--
+// +-------------------------------------------------+
+// © 2002-2004 PMB Services / www.sigb.net pmb@sigb.net et contributeurs (voir www.sigb.net)
+// +-------------------------------------------------+
+// $Id: config.html,v 1.0 2017-08-24 09:00:00 jpermanne Exp $
+-->
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Configuration réseau</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="contenu">
+	<form name="form_config" id="form_config" method="POST">
+		<div class="row">
+			<label for="ip_address">
+				Adresse IP
+			</label>
+			<input type="text" name="ip_address" id="ip_address" value="!!ip_address!!">
+		</div>
+		<div class="row">
+			<label for="netmask">
+				Masque de sous-réseau
+			</label>
+			<input type="text" name="netmask" id="netmask" value="!!netmask!!">
+		</div>
+		<div class="row">
+			<label for="gateway">
+				Passerelle
+			</label>
+			<input type="text" name="gateway" id="gateway" value="!!gateway!!">
+		</div>
+		<div class="row">
+			<label for="dns">
+				DNS
+			</label>
+			<input type="text" name="dns" id="dns" value="!!dns!!">
+		</div>
+		<div class="row">
+			<input type="submit" name="bt_submit" id="bt_submit" value="Enregistrer">
+		</div>
+	</form>
+  </div>
+</body>
+</html>
